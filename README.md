@@ -11,7 +11,7 @@ npm install
 node index.js
 ```
 
-# 🔁 /sync-to-horizon API Test
+# 🔁 /sync-to-nest API Test
 ### Convert ISO String → UNIX Timestamp
 
 **POST `/sync-to-nest`**
@@ -26,6 +26,9 @@ curl -X POST http://localhost:3000/sync-to-nest \
 Converts `account_creation_time` from a **UNIX timestamp** to an **ISO 8601 date string**.
 
 ---
+
+# 🔁 /sync-to-horizon API Test
+### Convert UNIX Timestamp -> ISO String
 
 ### 🧪 Example Request
 
